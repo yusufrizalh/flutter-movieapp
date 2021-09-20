@@ -59,8 +59,6 @@ class MovieTags extends ConsumerWidget {
   }
 }
 
-
-
 class MovieList extends ConsumerWidget {
   @override
   Widget build(BuildContext context, watch) {
@@ -174,9 +172,9 @@ class MovieDetailsPage extends StatelessWidget {
                                   ),
                                   Text("${movie.voteAverage}/10"),
                                 ],
-                              )
+                              ),
                             ],
-                          )
+                          ),
                         ],
                       ),
                     )
